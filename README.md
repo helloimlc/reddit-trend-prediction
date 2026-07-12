@@ -86,9 +86,14 @@ The application allows users to:
 
 ## Dataset
 
-This project uses Reddit data collected from Kaggle.
+This project uses Reddit post data obtained from Kaggle.
 
-The dataset is not included in this repository because of its size.
+The dataset contains posts collected from multiple Reddit communities and includes textual, metadata, and temporal information used for popularity prediction.
+
+The original dataset is **not included** in this repository due to its size.
+
+**Dataset source:**
+https://www.kaggle.com/datasets/...
 
 ---
 
@@ -114,16 +119,16 @@ reddit-trend-prediction/
 ├── README.md
 ├── app.py
 ├── reddit_popularity_prediction.ipynb
+├── xgb_model.pkl
 ├── requirements.txt
+├── LICENSE
+├── .gitignore
 │
-├── models/
-│   └── xgb_model.pkl
-│
-├── images/
-│   ├── architecture.png
-│   ├── confusion_matrix.png
-│   ├── feature_importance.png
-│   └── popularity_rate_heatmap.png
+└── images/
+    ├── architecture.png
+    ├── confusion_matrix.png
+    ├── feature_importance.png
+    └── popularity_rate_heatmap.png
 ```
 
 ---
