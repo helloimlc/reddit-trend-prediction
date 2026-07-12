@@ -80,7 +80,7 @@ The application allows users to:
 - Predict popularity
 - View prediction confidence
 
-*(Add a screenshot here later.)*
+
 
 ---
 
